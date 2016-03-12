@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 187, 
+      "bg": 206, 
       "temp": "absolute", 
-      "snoozeBG": 24, 
-      "timestamp": "2016-03-12T23:01:54.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG -25<110, setting -4.05U/hr", 
-      "eventualBG": -25, 
+      "snoozeBG": 266, 
+      "timestamp": "2016-03-12T23:40:23.000Z", 
+      "rate": 2, 
+      "reason": "max_iob 2, adj. req. rate:4.2 to maxSafeBasal:2.0, no temp, setting 2U/hr", 
+      "eventualBG": 290, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 88 Boluses: 4.4 Target: 115 Deviation: -51 BGI: -11.76", 
-      "tick": -55
+      "mealAssist": "On: Carbs: 70 Boluses: 5.15 Target: 100 Deviation: 84 BGI: -9.76", 
+      "tick": "+17"
     }, 
     "iob": {
-      "netbasalinsulin": 0.5, 
-      "timestamp": "2016-03-12T23:01:54.000Z", 
-      "basaliob": 0.503, 
-      "activity": 0.0294, 
-      "bolussnooze": 0.412, 
-      "iob": 2.013
+      "netbasalinsulin": 0.35, 
+      "timestamp": "2016-03-12T23:40:22.000Z", 
+      "basaliob": 0.134, 
+      "activity": 0.0244, 
+      "bolussnooze": 0.876, 
+      "iob": 1.614
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0, 
+        "rate": 2, 
         "temp": "absolute"
       }, 
-      "bg": 187, 
+      "bg": 206, 
       "temp": "absolute", 
-      "snoozeBG": 24, 
-      "timestamp": "2016-03-12T23:02:06.000Z", 
-      "reason": "Eventual BG -25<110, setting -4.05U/hr", 
-      "rate": 0, 
-      "eventualBG": -25, 
+      "snoozeBG": 266, 
+      "timestamp": "2016-03-12T23:40:35.000Z", 
+      "reason": "max_iob 2, adj. req. rate:4.2 to maxSafeBasal:2.0, no temp, setting 2U/hr", 
+      "rate": 2, 
+      "eventualBG": 290, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 88 Boluses: 4.4 Target: 115 Deviation: -51 BGI: -11.76", 
-      "tick": -55
+      "mealAssist": "On: Carbs: 70 Boluses: 5.15 Target: 100 Deviation: 84 BGI: -9.76", 
+      "tick": "+17"
     }
   }, 
   "mmtune": {
