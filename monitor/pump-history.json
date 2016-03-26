@@ -1,5 +1,82 @@
 [
   {
+    "programmed": 1.4, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-26T15:16:19 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-26T15:16:19", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.8, 
+            "age": 118
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 138
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 288
+          }, 
+          {
+            "amount": 2.45, 
+            "age": 408
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e2076c00c8ac00c20d06298d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100380038000a00", 
+    "amount": 1.4, 
+    "unabsorbed": 0.25, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "13d02f1a10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 148, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-03-26T15:16:19 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-26T15:16:19", 
+    "_body": "185000b4506e0e003400000a003878", 
+    "_head": "5b94", 
+    "unabsorbed_insulin_total": 0.25, 
+    "correction_estimate": 0.35, 
+    "_date": "13d00f1a10", 
+    "bolus_estimate": 1.4, 
+    "bg_target_low": 110, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 1.3, 
+    "carb_input": 24, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-03-26T15:15:24 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-03-26T15:15:24", 
+    "_body": "c23647", 
+    "_head": "3f12", 
+    "amount": 148, 
+    "_date": "18cf8f7a10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-03-26T15:15:24 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-03-26T15:15:24", 
+    "_body": "", 
+    "_head": "0a94", 
+    "amount": 148, 
+    "_date": "18cf2f7a10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-03-26T15:00:43 head[2], body[0] op[0x16]", 
