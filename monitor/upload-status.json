@@ -7,48 +7,48 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-05T07:29:36.000Z", 
+      "timestamp": "2016-04-05T07:32:35.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 45.325, 
-    "clock": "2016-04-05T00:28:22-07:00"
+    "clock": "2016-04-05T00:31:43-07:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 126, 
       "temp": "absolute", 
-      "snoozeBG": 105, 
-      "timestamp": "2016-04-05T07:30:37.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 105<110, setting -0.07U/hr", 
-      "eventualBG": 105, 
+      "snoozeBG": 111, 
+      "timestamp": "2016-04-05T07:35:25.000Z", 
+      "rate": 0.45, 
+      "reason": "111-111 in range: no temp required; setting current basal of 0.43 as temp", 
+      "eventualBG": 111, 
       "duration": 30, 
       "mealAssist": "Off: Carbs: 0 Boluses: 0.3 Target: 115 Deviation: 5 BGI: -1.68", 
       "tick": "+0"
     }, 
     "iob": {
-      "netbasalinsulin": 0.5, 
-      "timestamp": "2016-04-05T07:30:36.000Z", 
+      "netbasalinsulin": 0.45, 
+      "timestamp": "2016-04-05T07:35:24.000Z", 
       "activity": 0.0042, 
-      "basaliob": 0.311, 
+      "basaliob": 0.249, 
       "hightempinsulin": 0.75, 
       "bolussnooze": 0, 
-      "iob": 0.32
+      "iob": 0.256
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0, 
+        "rate": 0.45, 
         "temp": "absolute"
       }, 
       "bg": 126, 
       "temp": "absolute", 
-      "snoozeBG": 105, 
-      "timestamp": "2016-04-05T07:30:58.000Z", 
-      "reason": "Eventual BG 105<110, setting -0.07U/hr", 
-      "rate": 0, 
-      "eventualBG": 105, 
+      "snoozeBG": 111, 
+      "timestamp": "2016-04-05T07:35:48.000Z", 
+      "reason": "111-111 in range: no temp required; setting current basal of 0.43 as temp", 
+      "rate": 0.45, 
+      "eventualBG": 111, 
       "recieved": true, 
       "duration": 30, 
       "mealAssist": "Off: Carbs: 0 Boluses: 0.3 Target: 115 Deviation: 5 BGI: -1.68", 
@@ -58,24 +58,29 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        1, 
+        -97
+      ], 
+      [
         "916.560", 
         5, 
-        -79
+        -80
       ], 
       [
         "916.580", 
         5, 
-        -77
+        -78
       ], 
       [
         "916.600", 
         5, 
-        -76
+        -77
       ], 
       [
         "916.620", 
         5, 
-        -76
+        -77
       ], 
       [
         "916.640", 
@@ -99,7 +104,7 @@
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-04-05T07:29:04.000Z", 
+    "timestamp": "2016-04-05T07:32:24.000Z", 
     "usedDefault": false
   }
 }
