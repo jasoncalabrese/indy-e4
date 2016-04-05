@@ -7,97 +7,99 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-05T12:01:43.000Z", 
+      "timestamp": "2016-04-05T12:09:27.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 43.5, 
-    "clock": "2016-04-05T05:00:50-07:00"
+    "clock": "2016-04-05T05:08:34-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 106, 
+      "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 95, 
-      "timestamp": "2016-04-05T12:05:32.000Z", 
-      "reason": "Eventual BG 95<110, setting -0.6U/hr, but 29m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 95, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -15 BGI: 0.2", 
-      "tick": -3
+      "snoozeBG": 112, 
+      "timestamp": "2016-04-05T12:10:28.000Z", 
+      "rate": 0.4, 
+      "reason": "Eventual BG 112>110 but Avg. Delta -0.67 < Exp. Delta 0.2; setting current basal of 0.4 as temp", 
+      "eventualBG": 112, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -5 BGI: 0.12", 
+      "tick": "+3"
     }, 
     "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2016-04-05T12:05:31.000Z", 
-      "activity": -0.0005, 
-      "basaliob": -0.046, 
+      "netbasalinsulin": -0.25, 
+      "timestamp": "2016-04-05T12:10:27.000Z", 
+      "activity": -0.0003, 
+      "basaliob": -0.094, 
       "hightempinsulin": 0.15, 
       "bolussnooze": 0, 
-      "iob": -0.046
+      "iob": -0.094
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0, 
+        "rate": 0.4, 
         "temp": "absolute"
       }, 
       "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 96, 
-      "timestamp": "2016-04-05T12:00:01.000Z", 
-      "reason": "Eventual BG 96<110, setting -0.55U/hr", 
-      "rate": 0, 
-      "eventualBG": 96, 
+      "snoozeBG": 112, 
+      "timestamp": "2016-04-05T12:10:44.000Z", 
+      "reason": "Eventual BG 112>110 but Avg. Delta -0.67 < Exp. Delta 0.2; setting current basal of 0.4 as temp", 
+      "rate": 0.4, 
+      "eventualBG": 112, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -13 BGI: 0.2", 
-      "tick": -2
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -5 BGI: 0.12", 
+      "tick": "+3"
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.540", 
-        3, 
-        -79
+        5, 
+        -72
       ], 
       [
         "916.560", 
-        4, 
+        5, 
         -67
       ], 
       [
         "916.580", 
-        2, 
-        -83
+        5, 
+        -67
       ], 
       [
         "916.600", 
         5, 
-        -58
+        -68
       ], 
       [
         "916.620", 
-        3, 
-        -74
+        5, 
+        -67
       ], 
       [
         "916.640", 
-        4, 
-        -66
+        5, 
+        -67
       ], 
       [
         "916.660", 
-        4, 
-        -67
+        5, 
+        -71
       ], 
       [
         "916.680", 
         5, 
-        -65
+        -78
       ]
     ], 
-    "setFreq": 916.6, 
-    "timestamp": "2016-04-05T12:01:24.000Z", 
+    "setFreq": 916.64, 
+    "timestamp": "2016-04-05T12:09:16.000Z", 
     "usedDefault": false
   }
 }
