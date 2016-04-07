@@ -7,34 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-07T10:42:24.000Z", 
+      "timestamp": "2016-04-07T10:44:56.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 131.1, 
-    "clock": "2016-04-07T03:41:32-07:00"
+    "clock": "2016-04-07T03:43:53-07:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 128, 
       "temp": "absolute", 
-      "snoozeBG": 118, 
-      "timestamp": "2016-04-07T10:43:23.000Z", 
-      "rate": 0.45, 
-      "reason": "118-118 in range: no temp required; setting current basal of 0.45 as temp", 
-      "eventualBG": 118, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 1 BGI: -1.32", 
-      "tick": -1
+      "snoozeBG": 120, 
+      "timestamp": "2016-04-07T10:46:12.000Z", 
+      "reason": "Eventual BG 120>=120, temp 0.45 >~ req 0.51U/hr", 
+      "eventualBG": 120, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 2 BGI: -1.32", 
+      "tick": "+0"
     }, 
     "iob": {
-      "netbasalinsulin": 0.4, 
-      "timestamp": "2016-04-07T10:43:22.000Z", 
+      "netbasalinsulin": 0.45, 
+      "timestamp": "2016-04-07T10:46:12.000Z", 
       "activity": 0.0033, 
-      "basaliob": 0.139, 
+      "basaliob": 0.131, 
       "hightempinsulin": 0.45, 
       "bolussnooze": 0, 
-      "iob": 0.139
+      "iob": 0.131
     }, 
     "enacted": {
       "bg": 128, 
@@ -55,12 +53,12 @@
       [
         "916.560", 
         5, 
-        -88
+        -86
       ], 
       [
         "916.580", 
         5, 
-        -85
+        -84
       ], 
       [
         "916.600", 
@@ -70,17 +68,17 @@
       [
         "916.620", 
         5, 
-        -83
+        -82
       ], 
       [
         "916.640", 
         5, 
-        -83
+        -82
       ], 
       [
         "916.660", 
         5, 
-        -84
+        -83
       ], 
       [
         "916.680", 
@@ -94,7 +92,7 @@
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-04-07T10:42:13.000Z", 
+    "timestamp": "2016-04-07T10:44:25.000Z", 
     "usedDefault": false
   }
 }
