@@ -7,14 +7,33 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-09T05:36:45.000Z", 
+      "timestamp": "2016-04-09T05:39:46.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 87.75, 
-    "clock": "2016-04-08T22:35:53-07:00"
+    "reservoir": 87.725, 
+    "clock": "2016-04-08T22:38:54-07:00"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 164, 
+      "temp": "absolute", 
+      "snoozeBG": 107, 
+      "timestamp": "2016-04-09T05:40:46.000Z", 
+      "reason": "Eventual BG 62<110, temp 0.325 ~< req 0.35U/hr", 
+      "eventualBG": 62, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined Target: 115 Deviation: 16 BGI: -6.04", 
+      "tick": -7
+    }, 
+    "iob": {
+      "netbasalinsulin": 0.45, 
+      "timestamp": "2016-04-09T05:40:45.000Z", 
+      "activity": 0.0151, 
+      "basaliob": 0.588, 
+      "hightempinsulin": 1, 
+      "bolussnooze": 0.372, 
+      "iob": 1.469
+    }, 
     "enacted": {
       "bg": 127, 
       "temp": "absolute", 
@@ -34,46 +53,61 @@
       [
         "916.540", 
         5, 
-        -87
+        -78
       ], 
       [
         "916.560", 
         5, 
-        -80
+        -68
       ], 
       [
         "916.580", 
         5, 
-        -81
+        -67
       ], 
       [
         "916.600", 
         5, 
-        -81
+        -67
       ], 
       [
         "916.620", 
         5, 
-        -81
+        -67
       ], 
       [
         "916.640", 
         5, 
-        -82
+        -66
       ], 
       [
         "916.660", 
         5, 
-        -80
+        -67
       ], 
       [
         "916.680", 
         5, 
-        -81
+        -72
+      ], 
+      [
+        "916.840", 
+        1, 
+        -98
+      ], 
+      [
+        "916.860", 
+        2, 
+        -97
+      ], 
+      [
+        "916.900", 
+        2, 
+        -97
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-04-09T05:36:25.000Z", 
+    "setFreq": 916.64, 
+    "timestamp": "2016-04-09T05:39:35.000Z", 
     "usedDefault": false
   }
 }
