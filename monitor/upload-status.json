@@ -7,29 +7,22 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-25T12:21:45.000Z", 
+      "timestamp": "2016-04-25T12:26:45.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 100.225, 
-    "clock": "2016-04-25T05:20:58-07:00"
+    "reservoir": 100.2, 
+    "clock": "2016-04-25T05:25:58-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 101, 
+      "bg": 102, 
       "temp": "absolute", 
-      "snoozeBG": 114, 
-      "timestamp": "2016-04-25T12:23:29.000Z", 
+      "snoozeBG": 116, 
+      "timestamp": "2016-04-25T12:28:42.000Z", 
       "predBGs": {
         "IOB": [
-          101, 
-          101, 
-          101, 
-          101, 
-          101, 
           102, 
-          102, 
-          103, 
           103, 
           104, 
           105, 
@@ -39,31 +32,30 @@
           108, 
           109, 
           110, 
-          110, 
           111, 
           112, 
-          112, 
-          112, 
           113, 
-          113, 
-          113, 
-          114
+          114, 
+          115, 
+          115, 
+          116, 
+          117, 
+          117, 
+          118, 
+          118, 
+          118, 
+          119, 
+          119, 
+          119, 
+          119, 
+          120
         ]
       }, 
-      "reason": "COB: 0, Dev: -3, BGI: 0.84, Target: 115; Eventual BG 114>110 but Avg. Delta 0.00 < Exp. Delta 0.9, temp 0.325 ~ req 0.36U/hr", 
-      "eventualBG": 114, 
-      "tick": "+0"
+      "reason": "COB: 0, Dev: -1, BGI: 0.88, Target: 115; Eventual BG 116>110 but Avg. Delta 0.67 < Exp. Delta 0.9, temp 0.325 ~ req 0.36U/hr", 
+      "eventualBG": 116, 
+      "tick": "+1"
     }, 
     "iob": [
-      {
-        "netbasalinsulin": -0.4, 
-        "activity": -0.0019, 
-        "basaliob": -0.203, 
-        "time": "2016-04-25T12:20:58.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.203
-      }, 
       {
         "netbasalinsulin": -0.4, 
         "activity": -0.002, 
@@ -378,6 +370,15 @@
         "hightempinsulin": 0, 
         "bolussnooze": 0, 
         "iob": 0
+      }, 
+      {
+        "netbasalinsulin": 0, 
+        "activity": 0, 
+        "basaliob": 0, 
+        "time": "2016-04-25T15:20:58.000Z", 
+        "hightempinsulin": 0, 
+        "bolussnooze": 0, 
+        "iob": 0
       }
     ], 
     "enacted": {
@@ -468,7 +469,7 @@
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-04-25T12:21:25.000Z", 
+    "timestamp": "2016-04-25T12:26:25.000Z", 
     "usedDefault": false
   }
 }
