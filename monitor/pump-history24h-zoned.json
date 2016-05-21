@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-05-21T01:11:44 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-05-21T01:11:44-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "6c4b015510"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-05-21T01:11:44 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-05-21T01:11:44-07:00", 
+    "_body": "00", 
+    "_head": "3310", 
+    "rate": 0.4, 
+    "_date": "6c4b015510"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-05-21T01:01:35 head[2], body[0] op[0x16]", 
     "timestamp": "2016-05-21T01:01:35-07:00", 
     "_body": "", 
@@ -3757,54 +3776,5 @@
     "_head": "333e", 
     "rate": 1.55, 
     "_date": "5d4c165310"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-05-19T22:06:54 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-19T22:06:54-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "7646165310"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-19T22:06:54 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-19T22:06:54-07:00", 
-    "_body": "00", 
-    "_head": "3325", 
-    "rate": 0.925, 
-    "_date": "7646165310"
-  }, 
-  {
-    "_type": "Prime", 
-    "_description": "Prime 2016-05-19T22:06:03 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-05-19T22:06:03-07:00", 
-    "_body": "", 
-    "_head": "0300030003", 
-    "amount": 0.3, 
-    "fixed": 0.3, 
-    "type": "fixed", 
-    "_date": "4346161310"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-05-19T22:01:50 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-19T22:01:50-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "7241165310"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-19T22:01:50 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-19T22:01:50-07:00", 
-    "_body": "00", 
-    "_head": "3320", 
-    "rate": 0.8, 
-    "_date": "7241165310"
   }
 ]
